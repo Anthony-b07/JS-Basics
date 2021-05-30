@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Step 7</title>
-        <meta charset="UTF-8">
-    </head>
+
+<head>
+    <title>Step 7</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./Step_7.css">
+</head>
+
+<body>
+
     <body>
-        <form>
-            <label for="shoe_size">shoe size : </label><input type="text" id="shoe_size" name="shoe_size"/><br/>
-            <label for="year">Birth year : </label><input type="text" id="year" name="year"/><br/>
-            <button id="validate" name="validate">validate</button>
-        </form>
+        <div id="container1"></div>
+        <div class="container">
+            <p id="list"></p>
+            <div class="background">
+                <div class="form">
+                    <form>
+                        <label for="shoe_size">shoe size  </label>
+                        <input type="text" id="shoe_size" name="shoe_size" /><br/>
+                        <label for="year">Birth year  </label>
+                        <input type="text" id="year" name="year" /><br/>
+                        <button id="validate" name="validate" onclick="multipleOp()">validate</button>
+                        <p id="result">Result</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="./Step_7.js"></script>
+
     </body>
+
 </html>
