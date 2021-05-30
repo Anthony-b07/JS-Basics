@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Step 8</title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <form>
-            <label for="age">your age : </label><input type="text" id="age" name="age"/><br/>
-            <button id="validate" name="validate">validate</button>
-        </form>
-    </body>
+
+<head>
+    <title>Step 8</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./Step_8.css">
+</head>
+
+<body>
+    <div id="container1"></div>
+    <div class="container">
+        <p id="list"></p>
+        <div class="background">
+            <div class="form">
+
+                <form>
+                    <label for="age">your age  </label><input type="text" id="age" name="age" /><br/>
+                    <button id="validate" name="validate" onclick="ageVal();">validate</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./Step_8.js"></script>
+</body>
+
 </html>
