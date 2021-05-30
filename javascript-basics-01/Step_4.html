@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Step 4</title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <form>
-            <label for="name">name : </label><input type="text" name="name" id="name"/>
-            <label for="surname">surname : </label><input type="text" name="surname" id="surname"/>
-            <label for="city">city : </label><input type="text" name="city" id="city"/>
-            <button  name="validate" id="validate">Validate</button>
-        </form>
-    </body>
+
+<head>
+    <title>Step 4</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Step_4.css">
+</head>
+
+<body>
+    <div id="container1"></div>
+    <div class="container">
+        <p id="list"></p>
+        <div class="background">
+            <div class="form">
+                <form>
+                    <label for="name">name : </label><input type="text" name="name" id="name" /><br>
+                    <label for="surname">surname : </label><input type="text" name="surname" id="surname" /><br>
+                    <label for="city">city : </label><input type="text" name="city" id="city" />
+                    <button name="validate" id="validate" onclick="getHacked();">Validate</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./Step_4.js"></script>
+</body>
+
 </html>
