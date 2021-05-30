@@ -1,4 +1,8 @@
-function showText(show, hide) {
-    show = document.querySelector("p").value;
+function hide() {
+    document.getElementById("texte").getElementsByTagName("P").innerHtml = "";
+}
 
+function show() {
+    document.getElementById("texte").getElementsByTagName("P");
+    style.display = 'block'
 }
